@@ -19,23 +19,38 @@
 #### 탐색
 * indexOf(str, {시작 위치}): 특정 문자열이 대상 문자열의 몇 번째 인덱스에 위치하는지 반환
 * equal(str) : String 문자열 값 비교
-
 * length() : 문자열의 길이를 반환
 
+#### 치환
+* replace(beforeStr, afterStr) : 특정 문자열을 새로운 문자열로 치환
+* replaceAll(pattern, afterStr) : 정규식에 일치하는 문자를 새로운 문자열로 치환
 
 <br>
-
-
-## [ Wrapper ]
-
-## Charcter
-* toLowerCase(c): 문자열을 소문자로 변환
-* toUpperCase(c): 문자열을 대문자로 변환
-* isAlphabetic(c): c가 알파벳이면 true, 아니면 false 반환
 
 ## Array
 * length : 배열의 크기를 반환
 
+<br>
+
+## [ Wrapper ]
+
+## Charcter
+
+#### 대소문자
+* toLowerCase(c): 문자를 소문자로 변환
+* toUpperCase(c): 문자를 대문자로 변환
+* isLowerCase(c): c가 소문자이면 true, 아니면 false 반환
+* isUpperCase(c): c가 대문자이면 true, 아니면 false 반환
+
+#### 문자 종류
+* isAlphabetic(c): c가 알파벳이면 true, 아니면 false 반환
+* isDibit(c): c가 숫자면 true, 아니면 false 반환
+
+<br>
+
+## Integer
+
+* parseInt(str): 문자열을 int로 변환
 
 <br>
 
